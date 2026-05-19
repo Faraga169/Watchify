@@ -10,7 +10,12 @@ import { Movie } from '../../Core/Interfaces/movie-model';
 export class MovieHero {
   @Input() movie!: Movie;
   @Output() watchRequested = new EventEmitter<void>();
+  @Output() addToWatchLaterRequested = new EventEmitter<void>();
   onWatchClick() {
     this.watchRequested.emit();
+  }
+  onAddToWatchLater() {
+    
+    this.addToWatchLaterRequested.emit();
   }
 }

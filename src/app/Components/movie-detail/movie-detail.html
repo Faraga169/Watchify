@@ -1,6 +1,6 @@
 <div class="bg-black min-vh-100">
   @if (currentMovie) {
-    <app-movie-hero [movie]="currentMovie" (watchRequested)="handleWatchNow()"></app-movie-hero>
+    <app-movie-hero [movie]="currentMovie" (watchRequested)="handleWatchNow()" (addToWatchLaterRequested)="handleAddToWatchLater()"></app-movie-hero>
 
     @if (showPlayer) {
       <div id="player" class="container-fluid px-md-5 mt-4 animate-fade-in">

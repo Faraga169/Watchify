@@ -89,8 +89,149 @@
     },
     {
       "WatchHistory": [],
-      "WatchLater": [],
-      "Favourites": [],
+      "WatchLater": [
+        {
+          "id": 124364,
+          "type": "tv",
+          "watchedAt": "2026-05-19T13:32:39.857Z",
+          "data": {
+            "adult": false,
+            "backdrop_path": "/auyEi4Xho43HFvVQnd42LzqBdiV.jpg",
+            "genre_ids": [
+              9648,
+              18,
+              10765
+            ],
+            "id": 124364,
+            "origin_country": [
+              "US"
+            ],
+            "original_language": "en",
+            "original_name": "FROM",
+            "overview": "Unravel the mystery of a nightmarish town in middle America that traps all those who enter. As the unwilling residents fight to keep a sense of normalcy and search for a way out, they must also survive the threats of the surrounding forest – including the terrifying creatures that come out when the sun goes down.",
+            "popularity": 660.8325,
+            "poster_path": "/pRtJagIxpfODzzb0T0NAvZSzErC.jpg",
+            "first_air_date": "2022-02-20",
+            "softcore": false,
+            "name": "FROM",
+            "vote_average": 8.379,
+            "vote_count": 3228
+          }
+        },
+        {
+          "id": "1304313",
+          "type": "movie",
+          "watchedAt": "2026-05-19T15:42:19.584Z",
+          "data": {
+            "id": "1304313",
+            "type": "movie",
+            "watchedAt": "2026-05-19T15:42:19.529Z",
+            "adult": false,
+            "backdrop_path": "/wMrV8SLne1jHLeYS0lLrA1Tf86P.jpg",
+            "title": "Lee Cronin's The Mummy",
+            "original_title": "Lee Cronin's The Mummy",
+            "overview": "The young daughter of a journalist disappears into the desert without a trace—eight years later, the broken family is shocked when she is returned to them, as what should be a joyful reunion turns into a living nightmare.",
+            "poster_path": "/lTQoEczVEnkuxHFEGgWYfJB98tL.jpg",
+            "media_type": "movie",
+            "original_language": "en",
+            "genre_ids": [
+              35,
+              27
+            ],
+            "popularity": 7.085,
+            "release_date": "2026",
+            "softcore": false,
+            "video": false,
+            "vote_average": 7.085,
+            "vote_count": 0
+          }
+        },
+        {
+          "id": "1273221",
+          "type": "movie",
+          "watchedAt": "2026-05-19T15:53:18.778Z",
+          "data": {
+            "id": "1273221",
+            "type": "movie",
+            "watchedAt": "2026-05-19T15:53:18.768Z",
+            "adult": false,
+            "backdrop_path": "/pO7XVtgA6t5JbxY1S8Y4cQEFarR.jpg",
+            "title": "Scary Movie",
+            "original_title": "Scary Movie",
+            "overview": "Twenty-six years after outrunning a suspiciously familiar masked killer, the Core Four are back in the killer's crosshairs and no horror movie IP is safe.",
+            "poster_path": "/2OHkZEqQL4OjYXIqWopJu0BijTD.jpg",
+            "media_type": "movie",
+            "original_language": "en",
+            "genre_ids": [
+              35,
+              27
+            ],
+            "popularity": 0,
+            "release_date": "2026",
+            "softcore": false,
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+          }
+        },
+        {
+          "id": 1242332,
+          "type": "movie",
+          "watchedAt": "2026-05-19T15:54:00.194Z",
+          "data": {
+            "adult": false,
+            "backdrop_path": "/1YU6Hy3x7fUh7dfOzSfjifTp20g.jpg",
+            "id": 1242332,
+            "title": "Normal",
+            "original_title": "Normal",
+            "overview": "Interim sheriff Ulysses, called to the snowbound town of Normal, MN, uncovers an international criminal conspiracy at the heart of the seemingly quaint whistle-stop when he comes to the aid of a bank-robbing couple caught up in a deadly mess.",
+            "poster_path": "/rsNdDcCKjCZm9RBMAxL3vMUokKU.jpg",
+            "media_type": "movie",
+            "original_language": "en",
+            "genre_ids": [
+              28,
+              80,
+              53
+            ],
+            "popularity": 12.3489,
+            "release_date": "2026-04-16",
+            "softcore": false,
+            "video": false,
+            "vote_average": 7,
+            "vote_count": 33
+          }
+        }
+      ],
+      "Favourites": [
+        {
+          "id": 76479,
+          "type": "tv",
+          "watchedAt": "2026-05-19T13:33:17.208Z",
+          "data": {
+            "adult": false,
+            "backdrop_path": "/bq28ajZaoMyzEIm6REelqyqtEDZ.jpg",
+            "id": 76479,
+            "name": "The Boys",
+            "original_name": "The Boys",
+            "overview": "A group of vigilantes known informally as “The Boys” set out to take down corrupt superheroes with no more than blue-collar grit and a willingness to fight dirty.",
+            "poster_path": "/in1R2dDc421JxsoRWaIIAqVI2KE.jpg",
+            "media_type": "tv",
+            "original_language": "en",
+            "genre_ids": [
+              10765,
+              10759
+            ],
+            "popularity": 584.1474,
+            "first_air_date": "2019-07-25",
+            "softcore": false,
+            "vote_average": 8.461,
+            "vote_count": 12397,
+            "origin_country": [
+              "US"
+            ]
+          }
+        }
+      ],
       "IsSubscribe": true,
       "SubscriptionEndDate": "2026-06-18T12:26:36.303Z",
       "name": "Ahmed Ibrahem Ahmed Saleh",
@@ -101,464 +242,7 @@
       "id": "bxwis4md1tm"
     },
     {
-      "WatchHistory": [
-        {
-          "id": "1439930",
-          "type": "movie",
-          "data": {
-            "id": "1439930",
-            "title": "The Punisher: One Last Kill",
-            "description": "As Frank Castle searches for meaning beyond revenge, an unexpected force pulls him back into the fight.",
-            "backdropUrl": "https://image.tmdb.org/t/p/original/qO55CD8tgVL1T4WKn6zYFFiD6lL.jpg",
-            "posterUrl": "https://image.tmdb.org/t/p/w500/qQclTgLMDvGBuUBFGHRipxkEwWR.jpg",
-            "rating": 8.5,
-            "year": 2026,
-            "duration": "51m",
-            "genres": [
-              "Action",
-              "Drama",
-              "Crime"
-            ],
-            "director": "Reinaldo Marcus Green",
-            "writer": "Reinaldo Marcus Green",
-            "studio": "Marvel Studios",
-            "budget": "N/A",
-            "cast": [
-              {
-                "name": "Jon Bernthal",
-                "role": "Frank Castle",
-                "imageUrl": "https://image.tmdb.org/t/p/w185/o0t6EVkJOrFAjESDilZUlf46IbQ.jpg"
-              },
-              {
-                "name": "Deborah Ann Woll",
-                "role": "Karen Page",
-                "imageUrl": "https://image.tmdb.org/t/p/w185/btTnyvRLXOH0pz2SLBwyKbmnFhX.jpg"
-              },
-              {
-                "name": "Jason R. Moore",
-                "role": "Curtis Hoyle",
-                "imageUrl": "https://image.tmdb.org/t/p/w185/5VJ0dTa1aZRf3mQJrHJ56Pf42dP.jpg"
-              },
-              {
-                "name": "Judith Light",
-                "role": "Ma",
-                "imageUrl": "https://image.tmdb.org/t/p/w185/zwgc0ZT8LNIfW7gDbuOFKNtTGIj.jpg"
-              },
-              {
-                "name": "Kelli Barrett",
-                "role": "Maria Castle",
-                "imageUrl": "https://image.tmdb.org/t/p/w185/oFY6w4H6zEx1FDOXEXmCINnlcap.jpg"
-              },
-              {
-                "name": "Andre Royo",
-                "role": "Dre",
-                "imageUrl": "https://image.tmdb.org/t/p/w185/tJzftaUtVvZs2RkFt2iQlQ5QWEh.jpg"
-              }
-            ],
-            "similarMovies": [
-              {
-                "id": "24873",
-                "title": "Death Wish 3",
-                "rating": 6.217,
-                "year": 1985,
-                "posterUrl": "https://image.tmdb.org/t/p/w500/mc33TytXxkC9cSKyztDJzwF3lbn.jpg",
-                "genres": [
-                  "Action",
-                  "Drama",
-                  "Crime"
-                ]
-              },
-              {
-                "id": "9569",
-                "title": "Hard to Kill",
-                "rating": 5.993,
-                "year": 1990,
-                "posterUrl": "https://image.tmdb.org/t/p/w500/nmtMNxslljllSTVtt7VIOXdxSZp.jpg",
-                "genres": [
-                  "Action",
-                  "Drama",
-                  "Crime"
-                ]
-              },
-              {
-                "id": "1036561",
-                "title": "Shadow Master",
-                "rating": 6.65,
-                "year": 2022,
-                "posterUrl": "https://image.tmdb.org/t/p/w500/67ZsRKbItt6B1yHlsJKgfPWOyuJ.jpg",
-                "genres": [
-                  "Action",
-                  "Drama",
-                  "Crime"
-                ]
-              },
-              {
-                "id": "25006",
-                "title": "State Property",
-                "rating": 6.426,
-                "year": 2002,
-                "posterUrl": "https://image.tmdb.org/t/p/w500/eq8ygk2egSs9QnQfrjqE4fJ44OJ.jpg",
-                "genres": [
-                  "Action",
-                  "Drama",
-                  "Crime"
-                ]
-              },
-              {
-                "id": "9495",
-                "title": "The Crow",
-                "rating": 7.519,
-                "year": 1994,
-                "posterUrl": "https://image.tmdb.org/t/p/w500/rMMB3v6jYHjsvXRNJYESacoTD7j.jpg",
-                "genres": [
-                  "Action",
-                  "Drama",
-                  "Crime"
-                ]
-              },
-              {
-                "id": "79026",
-                "title": "El padrino: The Latin Godfather",
-                "rating": 7.029,
-                "year": 2004,
-                "posterUrl": "https://image.tmdb.org/t/p/w500/10J7EQ8WvMYku8lcZrLewV2Ko4I.jpg",
-                "genres": [
-                  "Action",
-                  "Drama",
-                  "Crime"
-                ]
-              }
-            ],
-            "reviews": [
-              {
-                "user": "rssp55",
-                "avatar": "https://image.tmdb.org/t/p/w185null",
-                "rating": 2,
-                "comment": "TW: There is an incident of animal abuse in the opening scene. (Skip to five minutes in if you don't want to see it.) Didn't need that. \r\n\r\nIt's just meh. \r\n\r\nFirst off, let me thank whoever concocted 'One Last Kill' for making it a mere 48 minutes instead of feature-length. \r\n\r\nPlease let this be the last time any of us has to sit through Jon Bernthal's iteration of The Punisher and the over-wrought writing his version of the character has received. \r\n\r\nA quarter of the time spent in this show is literally just street criminals doing things to try to convey why the Punisher might crack and start going after people again, instead of a 30-to-60 second sequence with some narration. And then after that we get yet another scene of re-explaining Frank Castle's trauma, which none of us need, because it's now been explained multiple times across multiple films and TV franchises sufficiently. \r\n\r\nThis really could have just been a cool 45-minute mini action film, but instead, it's an uninspired, boring retread and unnecessarily graphic one at that. The Punisher is a character that deserves way better than this junk.",
-                "date": "2026-05-13T17:01:57Z"
-              }
-            ],
-            "trailerUrl": "https://www.youtube.com/embed/oSeqs_xeqv4",
-            "isSeries": false,
-            "streamUrl": "https://www.youtube.com/embed/Aq5WXmQQooo",
-            "seasons": [],
-            "backdrop_path": "//qO55CD8tgVL1T4WKn6zYFFiD6lL.jpg",
-            "poster_path": "//qQclTgLMDvGBuUBFGHRipxkEwWR.jpg"
-          },
-          "watchedAt": "2026-05-19T13:06:49.051Z"
-        },
-        {
-          "id": "1304313",
-          "type": "movie",
-          "data": {
-            "id": "1304313",
-            "title": "Lee Cronin's The Mummy",
-            "description": "The young daughter of a journalist disappears into the desert without a trace—eight years later, the broken family is shocked when she is returned to them, as what should be a joyful reunion turns into a living nightmare.",
-            "backdropUrl": "https://image.tmdb.org/t/p/original/wMrV8SLne1jHLeYS0lLrA1Tf86P.jpg",
-            "posterUrl": "https://image.tmdb.org/t/p/w500/lTQoEczVEnkuxHFEGgWYfJB98tL.jpg",
-            "rating": 7.085,
-            "year": 2026,
-            "duration": "133m",
-            "genres": [
-              "Horror",
-              "Mystery"
-            ],
-            "director": "Lee Cronin",
-            "writer": "Lee Cronin",
-            "studio": "Atomic Monster",
-            "budget": "$23.0M",
-            "cast": [
-              {
-                "name": "Jack Reynor",
-                "role": "Charlie Cannon",
-                "imageUrl": "https://image.tmdb.org/t/p/w185/ti7IuuwBP66kntCCp6t38xzOcT4.jpg"
-              },
-              {
-                "name": "Laia Costa",
-                "role": "Larissa Cannon",
-                "imageUrl": "https://image.tmdb.org/t/p/w185/kSbdpHWLlfzvOfZKJ0dgP0ieVL6.jpg"
-              },
-              {
-                "name": "May Calamawy",
-                "role": "Detective Dalia Zaki",
-                "imageUrl": "https://image.tmdb.org/t/p/w185/5S3nNkH5p85xK7k7AaXBZ0ouyOR.jpg"
-              },
-              {
-                "name": "Natalie Grace",
-                "role": "Katie Cannon",
-                "imageUrl": "https://image.tmdb.org/t/p/w185/uoJRUulO6A9By4IhNrDdiKevAOj.jpg"
-              },
-              {
-                "name": "Shylo Molina",
-                "role": "Sebastián Cannon",
-                "imageUrl": "https://image.tmdb.org/t/p/w185/rIhBsRY6c7B4ClLOJbc4qEWter1.jpg"
-              },
-              {
-                "name": "Billie Roy",
-                "role": "Maud Cannon",
-                "imageUrl": "https://image.tmdb.org/t/p/w185/criWuHntMq5c6Duv505NApONwUu.jpg"
-              }
-            ],
-            "similarMovies": [
-              {
-                "id": "184346",
-                "title": "Deliver Us from Evil",
-                "rating": 6.251,
-                "year": 2014,
-                "posterUrl": "https://image.tmdb.org/t/p/w500/Uz32ERsyCmGwV8Eg2wmT2ooWpo.jpg",
-                "genres": [
-                  "Horror",
-                  "Mystery"
-                ]
-              },
-              {
-                "id": "565",
-                "title": "The Ring",
-                "rating": 6.7,
-                "year": 2002,
-                "posterUrl": "https://image.tmdb.org/t/p/w500/AeRpUynJKDpJveklBJipOYrVxCS.jpg",
-                "genres": [
-                  "Horror",
-                  "Mystery"
-                ]
-              },
-              {
-                "id": "423108",
-                "title": "The Conjuring: The Devil Made Me Do It",
-                "rating": 7.354,
-                "year": 2021,
-                "posterUrl": "https://image.tmdb.org/t/p/w500/xbSuFiJbbBWCkyCCKIMfuDCA4yV.jpg",
-                "genres": [
-                  "Horror",
-                  "Mystery"
-                ]
-              },
-              {
-                "id": "1232546",
-                "title": "Until Dawn",
-                "rating": 6.278,
-                "year": 2025,
-                "posterUrl": "https://image.tmdb.org/t/p/w500/bLY5yN4MKVynZ2HMZWElTOGBgBe.jpg",
-                "genres": [
-                  "Horror",
-                  "Mystery"
-                ]
-              },
-              {
-                "id": "752505",
-                "title": "The Old Ways",
-                "rating": 6.72,
-                "year": 2021,
-                "posterUrl": "https://image.tmdb.org/t/p/w500/jYnedFgdnN62QXE8HAPVtQKNFFm.jpg",
-                "genres": [
-                  "Horror",
-                  "Mystery"
-                ]
-              },
-              {
-                "id": "409297",
-                "title": "A Dark Song",
-                "rating": 6.329,
-                "year": 2016,
-                "posterUrl": "https://image.tmdb.org/t/p/w500/fguce8M1bZnWjVkRWCFh9P3kt6A.jpg",
-                "genres": [
-                  "Horror",
-                  "Mystery"
-                ]
-              }
-            ],
-            "reviews": [
-              {
-                "user": "Chris Sawin",
-                "avatar": "https://image.tmdb.org/t/p/w185null",
-                "rating": 4,
-                "comment": "Lee Cronin’s The Mummy isn’t scary or memorable; it’s raunchy exploitation and over-orchestrated expired cheese. It is a horror film that reeks of nothing but ridiculousness. The sad part is there’s a decent enough concept buried somewhere within this vomit-drenched monstrosity and a killer ambiance that is borderline spine-tingling.\r\n\r\nhttps://bit.ly/MummyBarf",
-                "date": "2026-04-17T20:34:41Z"
-              },
-              {
-                "user": "CinemaSerf",
-                "avatar": "https://image.tmdb.org/t/p/w185/9HcQx0Yfbxy8eqr3ft66X9uWMf0.jpg",
-                "rating": 6,
-                "comment": "I had high hopes for this, but boy was I disappointed... Instead of getting Christopher Lee, Boris Karloff or even Arnold Vosloo - we get a modern day \"Carrie\" with a few bandages and a rehash of the \"Azazel\" story - only this time with a sarcophagus and lots of rusty chains. We begin when the young daughter of \"Charlie\" (Jack Reynor) and \"Larissa\" (Laia Costa) is abducted by someone at the bottom of their garden who has been grooming her with candy bars at their Cairo home. Despite the best efforts of the police, there proves little that can be done and so the family relocate back to the USA and get on with raising their other two children. Then, out of the blue, \"Det. Zaki\" (May Calamawy) calls to say she has been found after an aeroplane crashed in the desert. Catatonic, the young girl (Natalie Grace) is brought home but swiftly we realise that all is not well and that when things begin to go bump in the night, some malevolence becomes apparent. What could possibly happen next? Well, sadly, there isn't the slightest hint of jeopardy about any of that as the visual effects designers go into overdrive and the writers head back to the pub. There simply isn't anything here that is remotely scary nor that does any justice to the ancient Egyptian mythology that could have better underpinned this mystery had Lee Cronin actually taken some trouble to build on that richness instead of sticking with the typical family panicky melodrama, albeit entertainingly augmented with some modern-day false teeth. There is the slightest of twists at the denouement that did make me smile - until I realised that might also signal sequel, and then I left to go home and watch a film that actually evokes something of the eerie and the mystical from this ancient culture. At least she wasn't a doll!",
-                "date": "2026-04-24T11:57:42Z"
-              },
-              {
-                "user": "Sierbahnn",
-                "avatar": "https://image.tmdb.org/t/p/w185/zPrKgxw1a1Pyb4Hb1DYwquWC24S.jpg",
-                "rating": 5,
-                "comment": "We can all just say that this is Evil Dead, right? I mean, it is, in everything but name, with some flimsy other story tacked on over it. It is shot like Evil Dead, its dialogue fits the Evil Dead, the narrative is Evil Dead. It just happens to not be Evil Dead. \r\nAnd it is all the worse for it. Because it is NOT Evil Dead, and instead tries to say something else, but gets bogged down in its format, and becomes this bland, uninteresting goop. It is proficient, sure, but it is almost desperate, and it is not engaging, and certainly not fun.",
-                "date": "2026-05-08T04:47:13Z"
-              }
-            ],
-            "trailerUrl": "https://www.youtube.com/embed/6wbMsDmJLCs",
-            "isSeries": false,
-            "streamUrl": "https://www.youtube.com/embed/Aq5WXmQQooo",
-            "seasons": [],
-            "backdrop_path": "//wMrV8SLne1jHLeYS0lLrA1Tf86P.jpg",
-            "poster_path": "//lTQoEczVEnkuxHFEGgWYfJB98tL.jpg"
-          },
-          "watchedAt": "2026-05-19T13:04:50.081Z"
-        },
-        {
-          "id": "83533",
-          "type": "movie",
-          "data": {
-            "id": "83533",
-            "title": "Avatar: Fire and Ash",
-            "description": "In the wake of the devastating war against the RDA and the loss of their eldest son, Jake Sully and Neytiri face a new threat on Pandora: the Ash People, a violent and power-hungry Na'vi tribe led by the ruthless Varang. Jake's family must fight for their survival and the future of Pandora in a conflict that pushes them to their emotional and physical limits.",
-            "backdropUrl": "https://image.tmdb.org/t/p/original/iN41Ccw4DctL8npfmYg1j5Tr1eb.jpg",
-            "posterUrl": "https://image.tmdb.org/t/p/w500/aabwWZWx6z1aYP4PX2ADvbDKktd.jpg",
-            "rating": 7.484,
-            "year": 2025,
-            "duration": "198m",
-            "genres": [
-              "Science Fiction",
-              "Adventure",
-              "Fantasy"
-            ],
-            "director": "James Cameron",
-            "writer": "James Cameron",
-            "studio": "20th Century Studios",
-            "budget": "$350.0M",
-            "cast": [
-              {
-                "name": "Sam Worthington",
-                "role": "Jake",
-                "imageUrl": "https://image.tmdb.org/t/p/w185/mflBcox36s9ZPbsZPVOuhf6axaJ.jpg"
-              },
-              {
-                "name": "Zoe Saldaña",
-                "role": "Neytiri",
-                "imageUrl": "https://image.tmdb.org/t/p/w185/iOVbUH20il632nj2v01NCtYYeSg.jpg"
-              },
-              {
-                "name": "Sigourney Weaver",
-                "role": "Kiri",
-                "imageUrl": "https://image.tmdb.org/t/p/w185/wTSnfktNBLd6kwQxgvkqYw6vEon.jpg"
-              },
-              {
-                "name": "Stephen Lang",
-                "role": "Quaritch",
-                "imageUrl": "https://image.tmdb.org/t/p/w185/gnO5VfkDgA2fsHweD0622LUY3Hu.jpg"
-              },
-              {
-                "name": "Oona Chaplin",
-                "role": "Varang",
-                "imageUrl": "https://image.tmdb.org/t/p/w185/uYnBSVKcFgw48Wxts01Dh5Gxlar.jpg"
-              },
-              {
-                "name": "Jack Champion",
-                "role": "Spider",
-                "imageUrl": "https://image.tmdb.org/t/p/w185/8PXFKzhjFJ0oYP60Bj1kA44XBjY.jpg"
-              }
-            ],
-            "similarMovies": [
-              {
-                "id": "299534",
-                "title": "Avengers: Endgame",
-                "rating": 8.235,
-                "year": 2019,
-                "posterUrl": "https://image.tmdb.org/t/p/w500/ulzhLuWrPK07P1YkdWQLZnQh1JL.jpg",
-                "genres": [
-                  "Science Fiction",
-                  "Adventure",
-                  "Fantasy"
-                ]
-              },
-              {
-                "id": "447365",
-                "title": "Guardians of the Galaxy Vol. 3",
-                "rating": 7.929,
-                "year": 2023,
-                "posterUrl": "https://image.tmdb.org/t/p/w500/r2J02Z2OpNTctfOSN1Ydgii51I3.jpg",
-                "genres": [
-                  "Science Fiction",
-                  "Adventure",
-                  "Fantasy"
-                ]
-              },
-              {
-                "id": "330459",
-                "title": "Rogue One: A Star Wars Story",
-                "rating": 7.506,
-                "year": 2016,
-                "posterUrl": "https://image.tmdb.org/t/p/w500/i0yw1mFbB7sNGHCs7EXZPzFkdA1.jpg",
-                "genres": [
-                  "Science Fiction",
-                  "Adventure",
-                  "Fantasy"
-                ]
-              },
-              {
-                "id": "76600",
-                "title": "Avatar: The Way of Water",
-                "rating": 7.592,
-                "year": 2022,
-                "posterUrl": "https://image.tmdb.org/t/p/w500/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg",
-                "genres": [
-                  "Science Fiction",
-                  "Adventure",
-                  "Fantasy"
-                ]
-              },
-              {
-                "id": "181812",
-                "title": "Star Wars: The Rise of Skywalker",
-                "rating": 6.271,
-                "year": 2019,
-                "posterUrl": "https://image.tmdb.org/t/p/w500/db32LaOibwEliAmSL2jjDF6oDdj.jpg",
-                "genres": [
-                  "Science Fiction",
-                  "Adventure",
-                  "Fantasy"
-                ]
-              },
-              {
-                "id": "54138",
-                "title": "Star Trek Into Darkness",
-                "rating": 7.3,
-                "year": 2013,
-                "posterUrl": "https://image.tmdb.org/t/p/w500/Aim3kVNh1MPIxPEFeJrl9e9Uf1a.jpg",
-                "genres": [
-                  "Science Fiction",
-                  "Adventure",
-                  "Fantasy"
-                ]
-              }
-            ],
-            "reviews": [
-              {
-                "user": "Manuel São Bento",
-                "avatar": "https://image.tmdb.org/t/p/w185null",
-                "rating": 5,
-                "comment": "FULL SPOILER-FREE REVIEW @ https://movieswetextedabout.com/avatar-fire-and-ash-movie-review-james-cameron-finds-himself-between-technical-brilliance-and-creative-stagnation/\r\n\r\n\"Avatar: Fire and Ash leaves me with mixed feelings of technical admiration and creative exhaustion. It's a film that lives off its scale, scope, and technical audacity but fails to take the step forward the narrative required to become memorable on its own merit.\r\n\r\nCinema cannot just be a technology demonstration; it needs characters whose journeys we feel as our own, themes that are explored in depth, and stories that aren't limited to repeating past successes. There are fascinating ideas here, from Neytiri's grief to Kiri's divine isolation and Varang's antagonistic beliefs, but they're lost under a cynical structure and unjustified plot decisions that make the experience truly frustrating. The lack of clarity about the fate of certain characters and the stagnation of some arcs make me fear that the next movies will follow the same path.\r\n\r\nJames Cameron is an undeniable visionary, but he seems to have forgotten that for a flame to keep burning brightly, it needs new fuel and not just the ashes of yesterday.\"\r\n\r\nRating: C",
-                "date": "2025-12-18T10:34:56Z"
-              },
-              {
-                "user": "Khushdave",
-                "avatar": "https://image.tmdb.org/t/p/w185null",
-                "rating": 5,
-                "comment": "One of the first things that stood out to me was how feminine this film felt in the best possible way. Almost every major female character holds power, agency, or authority: the Tulkun matriarch, Ronal, Tonowari’s clan through Ronal’s influence, Kiri, General Ardmore, Varang, and especially Neytiri, who finally gets the screen presence she deserved after the first film. Across clans and factions, women clearly hold more power than men, and that thematic choice felt intentional and refreshing.\r\n\r\nVisually, the film is absolutely staggering. The massive set pieces are some of the most impressive James Cameron has ever delivered. Bridgehead City and the Cove of the Ancestors are jaw-dropping, and for the first time since the original Avatar, I didn’t feel that uncanny disconnect between live-action elements and CGI. In The Way of Water, Spider occasionally felt like he didn’t quite belong in the frame. Here, that problem is gone entirely.\r\n\r\nThe human technology continues to be absurdly cool. The submarines, aircraft, ships, and industrial machinery are all terrifying and fascinating in equal measure. Cameron still knows how to make humanity’s tools of destruction visually seductive.\r\n\r\nKiri and Spider’s bond is finally made official, and that storyline is one of the film’s emotional cores. Spider, in particular, benefits enormously from the increased focus. After spending much of The Way of Water sidelined, he steps into the narrative in a big way. The sequence where Kiri gives him the ability to breathe Pandora’s air is genuinely suspenseful, even when you can guess where it’s going.\r\n\r\nLo’ak’s arc is one of the biggest improvements from the previous film. I wasn’t a fan of him in The Way of Water, where he often came across as reckless without understanding the consequences of his actions. Here, his growth feels earned and deeply affecting. His suicide attempt was shocking in the moment but makes painful sense in hindsight. Jake handles Neteyam’s death terribly and places much of his grief and blame onto Lo’ak, becoming an emotionally absent and often cruel father. Seeing Jake finally tell Lo’ak that he’s proud of him is one of the most satisfying moments in the film.\r\n\r\nVarang and the Ash People are genuinely terrifying antagonists. A Mangkwan warrior becoming a suicide bomber to take down a Windtrader ship is one of the film’s most chilling sequences, as is the scene where they sever Na’vi kurus. Varang herself is a standout villain. Her rage is rooted in loss and starvation, in a childhood shaped by destruction and abandonment. She doesn’t believe Eywa will save anyone, and her trauma drives her toward annihilation rather than healing. She’s compelling precisely because she’s so damaged.\r\n\r\nQuaritch continues to be one of the franchise’s most interesting characters. He evolves from insisting he’s “not that man” into slowly accepting himself as an upgraded continuation of his human self. Jake’s words to him during moments when they’re not actively trying to kill each other clearly get under his skin. His dynamic with Varang brings out the worst in both of them, but it feels more like a relationship of convenience than genuine bonding. Quaritch increasingly feels like a ghost with unfinished business, driven by an imprinted need to destroy Jake Sully even when it no longer serves him.\r\n\r\nThe scene where Jake is captured and put on display by the humans is incredibly effective. The voyeuristic curiosity of the crowd makes it feel suffocating, like you’re trapped in the box with him. Jake’s words to Quaritch in that moment are chilling.\r\n\r\nNeytiri’s return to center stage is another highlight. Her scene freeing Jake is pure catharsis, reminding us why she remains one of the franchise’s most powerful figures.\r\n\r\nThe film works extremely well as a direct continuation of The Way of Water. There’s no need to pause for heavy exposition, and while that might frustrate some viewers, it reinforces the feeling that this is very much Part Two rather than a standalone chapter. In that sense, Fire and Ash retroactively strengthens The Way of Water, which ended in a somewhat unfinished place.\r\n\r\nThe revelation about Kiri feels inevitable and satisfying. She is a clone of Grace’s avatar, with no father, and appears to be Eywa incarnate or at least its physical manifestation. The choice to give Eywa a face that resembles Kiri reinforces that idea beautifully.\r\n\r\nThat said, the film is not without its flaws. Several major plot beats feel like rehashes of earlier films, particularly the final battle. Humans walk into an ambush, the Na’vi initially gain the upper hand, are overwhelmed by superior firepower, Eywa intervenes through wildlife, and the climax ends with a personal duel between Jake and Quaritch, this time with Spider as the third presence. Kidnappings also remain an overused narrative device.\r\n\r\nMany side characters suffer due to the film’s ambition. Tsireya, Ronal, Tonowari, Aonung, and Rotxo were essential in The Way of Water, but here they’re largely sidelined. Rotxo’s death, in particular, feels underdeveloped and somewhat cheap. Ronal’s arc is disappointing as well. She’s mostly reduced to being pregnant and eventually dying, despite her strong presence in the previous film. Tonowari is barely given anything to do at all.\r\n\r\nThe Windtraders are another missed opportunity. David Thewlis’s Peylak is barely present, and the group disappears from the story far too quickly. It’s unclear whether Peylak is even alive by the end, and that ambiguity feels unearned.\r\n\r\nThere’s also a recurring issue where entire groups of characters seem to vanish during major battles. Just as the Metkayina disappeared during the climax of The Way of Water, large numbers of Na’vi seemingly evaporate here, despite clearly being alive in the aftermath.\r\n\r\nNorm and Max fare slightly better than before, but the bar was extremely low. Given the lore revelations around Norm having a Na’vi family, it’s frustrating that this isn’t explored further.\r\n\r\nThe ending feels less complete than The Way of Water’s. Important reactions and consequences are missing, such as Tsireya and Tonowari learning about Ronal’s death, the fate of remaining RDA soldiers, and how Quaritch, Varang, and the Mangkwan escape. While Spider’s acceptance into Na’vi society is emotionally satisfying, it doesn’t fully compensate for the unresolved threads.\r\n\r\nLooking ahead, there are many compelling questions. What happened to Quaritch and Varang, especially given Varang’s visible fear of Kiri? Is Ardmore alive? Who is “the Chairman” that Selfridge references? Was Garvin recording Jake’s imprisonment, and could that footage be used to expose the RDA back on Earth? Why does Eywa have a face, and why does it look like Kiri? And how long can Quaritch realistically remain the central antagonist as he drifts further from human command?\r\n\r\nSpider’s future is particularly troubling. Neytiri tries to kill him multiple times across the last two films, and Jake attempts to ritually execute him. His question, “Do you still love me?” is heartbreaking. He desperately wants a family, yet both of his parental figures nearly murder him. His bond with Quaritch only complicates things further, creating emotional whiplash that feels intentional and painful.\r\n\r\nOverall, I loved Fire and Ash. It’s beautiful, emotionally effective, and ambitious to a fault. It tries to juggle too many characters and storylines, and some inevitably suffer for it. Like the original Avatar, this film would benefit enormously from an extended edition with restored scenes. It barely feels like three hours, which suggests a significant amount was left on the cutting room floor.\r\n\r\nFire and Ash works best when viewed as the second half of The Way of Water rather than a standalone film. Together, they form a richer, more coherent narrative about grief, responsibility, and resistance. Even if Avatar 4 and 5 never happen, I hope we at least get extended editions to fully flesh out what’s already here.\r\n\r\nDespite its flaws and It may not tell a particularly unique story, but it tells it beautifully, and the emotions land exactly where they’re meant to.",
-                "date": "2025-12-19T16:08:19Z"
-              },
-              {
-                "user": "Dean",
-                "avatar": "https://image.tmdb.org/t/p/w185/pbZ9zJZEVYmtmjOZHPRvnnYxqYt.png",
-                "rating": 5,
-                "comment": "I give it 5/10 because, this 5 stars are for technical side. Movie has amazing effects, especially if you're watching it in 3D. It's visually beautiful, however I'm not giving rest 5 stars because of its narrative and agenda. Movie portraits us - humankind as evil, conquering race and simply bad. Yes, sure, we humans made a lots of mistakes in the past and we're not perfect, but we're not that bad and we do a lot of great and kind things as well, but people in Hollywood (those liberals) want us to hate ourselves, to feel guilty, to say how bad we are. Those people who push this agenda, they're obssessed with self-hatred and humilation. They're the one who want to divide people. We even hear in movie how those tribal aliens are calling us \"pink-asses\" and how they hate us. I think we all know what's happening here folks, it's a same leftist narrative and their propaganda.",
-                "date": "2025-12-20T11:47:06Z"
-              }
-            ],
-            "trailerUrl": "https://www.youtube.com/embed/Ma1x7ikpid8",
-            "isSeries": false,
-            "streamUrl": "https://www.youtube.com/embed/Aq5WXmQQooo",
-            "seasons": [],
-            "backdrop_path": "//iN41Ccw4DctL8npfmYg1j5Tr1eb.jpg",
-            "poster_path": "//aabwWZWx6z1aYP4PX2ADvbDKktd.jpg"
-          },
-          "watchedAt": "2026-05-19T13:02:56.370Z"
-        }
-      ],
+      "WatchHistory": [],
       "WatchLater": [
         {
           "id": 1007757,

@@ -43,11 +43,7 @@ export class UserService {
           user[key].push({
             id: media.id,
             type,
-            data: {
-              ...media,
-              backdrop_path: stripUrl(media.backdropUrl),
-              poster_path: stripUrl(media.posterUrl)
-            },
+            data: media,
             watchedAt: new Date().toISOString()
           });
 

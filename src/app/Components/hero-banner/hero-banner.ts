@@ -1,6 +1,7 @@
 import { ChangeDetectorRef, Component, inject } from '@angular/core';
 import { NgStyle } from "@angular/common";
 import { TmdbService } from '../../Core/Services/tmdb-service';
+import { UserService } from '../../Core/Services/user-service';
 
 @Component({
   selector: 'app-hero-banner',
@@ -11,6 +12,7 @@ import { TmdbService } from '../../Core/Services/tmdb-service';
 export class HeroBanner {
 
   private tmdbService = inject(TmdbService);
+  private userService = inject(UserService);
   private cdr = inject(ChangeDetectorRef);
   featured: any = null;
   genres: any;
@@ -34,6 +36,9 @@ export class HeroBanner {
     const id = this.featured.id;
     const route = this.featured.media_type === 'movie' ? `/Movies/${id}` : `/TvShows/${id}`;
     window.location.href = route; // Simple navigation, consider using Angular Router for better performance
+  }
+  addToWatchLater() {
+    this.userService.addMedia('watchlist', this.featured, this.featured.media_type);
   }
 
 

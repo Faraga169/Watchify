@@ -199,7 +199,9 @@ export class MovieDetail {
       setTimeout(() => {
         document.getElementById('player')?.scrollIntoView({ behavior: 'smooth' });
         const type = this.route.snapshot.data['mediaType'] as 'movie' | 'tv';
-        this.userService.addMedia('history', this.currentMovie, type);
+        const media = this.MapToTmdbMovie(this.currentMovie!, type);
+        console.log("Adding to Watch History:", media);
+        this.userService.addMedia('history', media, type);
 
       }, 100);
 
@@ -209,4 +211,42 @@ export class MovieDetail {
       this.router.navigate(['/subscription']);
     }
   }
+  handleAddToWatchLater() {
+    if (!this.currentMovie) {
+      return;
+    }
+    const type = this.route.snapshot.data['mediaType'] as 'movie' | 'tv';
+    const media = this.MapToTmdbMovie(this.currentMovie, type);
+    console.log("Adding to Watch Later:", media);
+    this.userService.addMedia('watchlist', media, type);
+  }
+
+  MapToTmdbMovie(movie: Movie, type: 'movie' | 'tv') {
+    return{
+          "id": movie.id,
+          "type": type,
+          "watchedAt": new Date().toISOString(),
+         
+          "adult": false,
+          "backdrop_path": "/" + new URL(movie.backdropUrl).pathname.split('/').pop(),
+          "title": movie.title,
+          "original_title": movie.title,
+          "overview": movie.description,
+          "poster_path": "/" + new URL(movie.posterUrl).pathname.split('/').pop(),
+          "media_type": "movie",
+          "original_language": "en",
+          "genre_ids": [
+            35,
+            27
+          ],
+          "popularity": movie.rating,
+          "release_date": movie.year.toString(),
+          "softcore": false,
+          "video": false,
+          "vote_average": movie.rating,
+          "vote_count": 0
+          }
+        
+  }
+ 
 }
