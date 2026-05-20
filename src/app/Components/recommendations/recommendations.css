@@ -1,0 +1,41 @@
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: #0a0f1a;
+    height: 100dvh;
+    overflow: hidden;
+  }
+
+  /* Full-height row — fills the viewport */
+  .main-row {
+    height: 100dvh;
+  }
+
+  /* ── Left panel (col-8) ─────────────────── */
+  .left-panel {
+    height: 100%;
+    background: #0e1523;
+    border-right: 1px solid rgba(59, 158, 255, 0.12);
+    overflow-y: auto;
+    color: #e8f2ff;
+  }
+
+  /* ── Right panel (col-4) — chatbot lives here ── */
+  .right-panel {
+    height: 100%;
+    padding: 0;          /* let the chatbot fill edge-to-edge */
+    overflow: hidden;
+  }
+
+  /* Placeholder styles — remove once you drop in real content */
+  .placeholder-label {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(59, 158, 255, 0.4);
+    border: 1px dashed rgba(59, 158, 255, 0.2);
+    border-radius: 10px;
+    padding: 40px;
+    text-align: center;
+  }

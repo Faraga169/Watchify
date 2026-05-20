@@ -1,0 +1,24 @@
+ <div class="container-fluid h-100 p-0">
+    <div class="row g-0 main-row">
+ 
+      <!-- ░░ LEFT — 2/3 width ░░ -->
+      <div class="col-md-8 col-sm-12 left-panel">
+        @if(recommendedMovies().length !== 0){
+            <app-movie-similar [movies]="recommendedMovies()" [type]="'Movies'"></app-movie-similar>
+        }
+      </div>
+ 
+      <!-- ░░ RIGHT — 1/3 width · chatbot ░░ -->
+      <div class="col-md-4 col-sm-12 right-panel">
+        <!--
+          Drop your Angular chatbot here:
+          <app-chat-bot></app-chat-bot>
+        -->
+        <app-chat-bot (moviesIdsEmitter)="handleMoviesRecommendation($event)"></app-chat-bot>
+        <!-- <div class="placeholder-label" style="margin: 20px; height: calc(100% - 40px); display:flex; align-items:center; justify-content:center;">
+          Right Panel — 1 / 3 &nbsp;·&nbsp; &lt;app-chat-bot&gt;
+        </div> -->
+      </div>
+ 
+    </div>
+  </div>

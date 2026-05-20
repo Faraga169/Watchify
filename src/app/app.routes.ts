@@ -12,6 +12,7 @@ import { TvGallery } from './Components/tv-gallery/tv-gallery';
 import { MovieDetail } from './Components/movie-detail/movie-detail';
 import { WatchLater } from './Components/watch-later/watch-later';
 import { MyList } from './Components/my-list/my-list';
+import { Recommendations } from './Components/recommendations/recommendations';
 
 export const routes: Routes = [
   // Auth routes
@@ -68,6 +69,10 @@ export const routes: Routes = [
       {
         path: 'MyList',
         component: MyList,
+      },
+      {
+        path: 'Recommendations',
+        component: Recommendations
       },
       {
         title: 'Subscription',

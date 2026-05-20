@@ -333,6 +333,16 @@
       "SubscriptionEndDate": "2026-06-18T18:41:41.612Z",
       "email": "amnaabdelwahab77@gmail.com",
       "id": "xL96aHlQRuhwOTDRsLjCLK3CTKf2"
+    },
+    {
+      "name": "saif",
+      "phone": "01111111111",
+      "rePassword": "Saif123",
+      "password": "Saif123",
+      "email": "saif@gmail.com",
+      "IsSubscribe": false,
+      "SubscriptionEndDate": null,
+      "id": "JAbhsvqIpkY"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
