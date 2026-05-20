@@ -1,59 +1,118 @@
-# Watchify
+# Project Setup Guide
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.8.
+Follow these steps in order to get the project running locally.
 
-## Development server
+---
 
-To start a local development server, run:
+## Prerequisites
 
-```bash
-ng serve
-```
+Make sure you have the following installed:
+- [Node.js](https://nodejs.org/)
+- [Docker](https://www.docker.com/)
+- [npx](https://www.npmjs.com/package/npx)
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+## 1. Install Dependencies
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+In the project root folder, run:
 
 ```bash
-ng generate --help
+npm install
 ```
 
-## Building
+---
 
-To build the project run:
+## 2. Start the Qdrant Database (Docker)
+
+Pull and run the Qdrant vector database container:
 
 ```bash
-ng build
+docker run -d \
+  --name my-qdrant \
+  -p 6333:6333 \
+  saifmohamed123/qdrant-dataset:v1
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+> This runs the container in the background. Qdrant will be available at `http://localhost:6333`.
 
-## Running unit tests
+---
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+## 3. Setup Environment File (Angular)
+
+Copy the environment template:
 
 ```bash
-ng test
+cp src/environments/environment.template.ts src/environments/environment.ts
 ```
 
-## Running end-to-end tests
+Then open `src/environments/environment.ts` and replace the placeholder with your real API key:
 
-For end-to-end (e2e) testing, run:
+```typescript
+export const environment = {
+  production: false,
+  apiKey: 'YOUR_REAL_API_KEY_HERE'
+};
+```
+
+> ⚠️ `environment.ts` is gitignored — never commit your real API key.
+
+---
+
+## 4. Setup Payment Gateway Secrets
+
+Create a `.env` file in the **root** of the project:
 
 ```bash
-ng e2e
+touch .env
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+Then open `.env` and add your payment gateway secrets:
 
-## Additional Resources
+```env
+STRIPE_SECRET_KEY=your-stripe-secret-key-here
+PORT=your-port-here
+```
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+> ⚠️ `.env` is gitignored — never commit this file.
+
+---
+
+## 5. Start the JSON Server (Database)
+
+Run the local JSON database on port 3001:
+
+```bash
+npx json-server --watch data.json --port 3001
+```
+
+> The database will be available at `http://localhost:3001`.
+
+---
+
+## 6. Start the Payment Gateway Server
+
+In a separate terminal, run:
+
+```bash
+npm run server
+```
+
+---
+
+## All Services at a Glance
+
+| Service              | Command                                          | URL                        |
+|----------------------|--------------------------------------------------|----------------------------|
+| Angular App          | `ng serve`                                       | http://localhost:4200       |
+| Qdrant (Docker)      | `docker run ...`                                 | http://localhost:6333       |
+| JSON Server          | `npx json-server --watch data.json --port 3001`  | http://localhost:3001       |
+| Payment Gateway      | `npm run server`                                 | depends on server config    |
+
+---
+
+## Notes
+
+- Make sure Docker is running before starting the Qdrant container.
+- Run each server in a **separate terminal**.
+- Never push `environment.ts` or `.env` to GitHub — they contain sensitive keys.
